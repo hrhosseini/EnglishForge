@@ -1,0 +1,6 @@
+{
+  "name": "Vocab Builder",
+  "description": "Learn and build English vocabulary based on CEFR levels from A1 to C2 with Spaced Repetition reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
