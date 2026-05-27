@@ -1,21 +1,10 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/4e2a7527-4bce-48a8-8f7d-61c3c88dea4b
-
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+**EnglishForge**
 
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+EnglishForge is an Android application designed to help learners build and strengthen their English vocabulary step by step.
+
+The app suggests useful English words based on the learner’s CEFR level, from A1 to C2. Each word includes a clear definition, example sentence, common collocations, and related words to help users understand how the word is used in real situations.
+
+Users can also add their own words, save important vocabulary, and review previous words using a spaced repetition system. This helps learners remember words for a longer time instead of forgetting them quickly.
+
+EnglishForge is focused on practical vocabulary growth, daily learning, and long-term review.
