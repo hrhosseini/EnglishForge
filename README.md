@@ -7,6 +7,8 @@ EnglishForge is a vocabulary learning project with two main parts:
 
 The app helps learners build practical English vocabulary with CEFR-based word suggestions, example sentences, collocations, saved words, and review sessions.
 
+When deployed, the public project domain is `englishForge.com` and the API may be exposed under `https://api.englishForge.com`.
+
 ---
 
 ## Repository structure
@@ -89,6 +91,11 @@ Then open:
 - http://127.0.0.1:8000/docs
 - http://127.0.0.1:8000/health
 
+When published, these endpoints may be available at:
+
+- https://englishForge.com/docs
+- https://englishForge.com/health
+
 #### Backend environment variables
 
 - `APP_NAME`
@@ -114,6 +121,7 @@ Then open:
 
 - Android emulator: use `http://10.0.2.2:8000`
 - Physical device: use `http://<YOUR_COMPUTER_IP>:8000`
+- Production / hosted API example: `https://api.englishForge.com`
 - Ensure `backend/.env` includes the corresponding origin in `CORS_ORIGINS`
 
 ---
@@ -168,9 +176,3 @@ Run unit and instrumentation tests from Android Studio or via Gradle commands.
 ## Author
 
 Hamidreza Hosseini
-
----
-
-## License
-
-This repository does not include a license file. Add one if you want to share or publish the project.
